@@ -7,7 +7,7 @@ public class Solution {
                 stack.push(c);
             } else {
                 if (stack.isEmpty()) {
-                    return false;
+                    return false; 
                 }
                 char top = stack.peek();
                 if ((c == ')' && top == '(') || 
