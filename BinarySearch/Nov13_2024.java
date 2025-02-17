@@ -1,6 +1,6 @@
 class Solution {
     public long countFairPairs(int[] nums, int lower, int upper) {
-        int n = nums.length;
+        int n = nums.length; 
         Arrays.sort(nums);
         long count = 0;
 
